@@ -1,0 +1,4 @@
+repository "Asosasyon 2026-03-30_20-12-59/Asosasyon@20067158540451@cloud"
+  path "/"
+    br "/main"
+    co "/main"

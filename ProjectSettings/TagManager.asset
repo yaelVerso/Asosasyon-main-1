@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Ground
+  - doggo
+  - Enemy
+  - Checkpoint
+  - SpawnPoint
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Wall
+  - Player
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: bBackground
+    uniqueID: 222616923
+    locked: 0
+  - name: Background
+    uniqueID: 320653087
+    locked: 0
+  - name: Foreground
+    uniqueID: 1742693469
+    locked: 0
+  - name: Player
+    uniqueID: 1011501087
+    locked: 0
+  - name: Ground
+    uniqueID: 4197820151
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  m_MigratedRenderPipelines: []
