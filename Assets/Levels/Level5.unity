@@ -1632,6 +1632,10 @@ PrefabInstance:
     - target: {fileID: 2637892453108451728, guid: 4e1aa7978fc81c647b8862d53e272c0f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1522281249}
+    - target: {fileID: 2637892453108451728, guid: 4e1aa7978fc81c647b8862d53e272c0f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QuitGame
       objectReference: {fileID: 0}
     - target: {fileID: 2808967790584341353, guid: 4e1aa7978fc81c647b8862d53e272c0f, type: 3}
       propertyPath: Box
@@ -1740,10 +1744,18 @@ PrefabInstance:
     - target: {fileID: 7940683965946792580, guid: 4e1aa7978fc81c647b8862d53e272c0f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1522281249}
+    - target: {fileID: 7940683965946792580, guid: 4e1aa7978fc81c647b8862d53e272c0f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Respawn
       objectReference: {fileID: 0}
     - target: {fileID: 8179281678308025674, guid: 4e1aa7978fc81c647b8862d53e272c0f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1522281249}
+    - target: {fileID: 8179281678308025674, guid: 4e1aa7978fc81c647b8862d53e272c0f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MainMenu
       objectReference: {fileID: 0}
     - target: {fileID: 9088524898565896520, guid: 4e1aa7978fc81c647b8862d53e272c0f, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1759,6 +1771,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e1aa7978fc81c647b8862d53e272c0f, type: 3}
+--- !u!114 &1522281249 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 395072609484312008, guid: 4e1aa7978fc81c647b8862d53e272c0f, type: 3}
+  m_PrefabInstance: {fileID: 1522281248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04b2a06c082c97a40b75a0891423876f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIManager
 --- !u!4 &1731180411 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5539965089768214281, guid: 66bb00f15e859c943a3e97543afbe048, type: 3}
@@ -2860,6 +2883,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5078564224092776817, guid: 347f901e6def0af4d90f69739f376e91, type: 3}
+      propertyPath: sceneToLoad
+      value: CreditScene
+      objectReference: {fileID: 0}
     - target: {fileID: 6625757437258277437, guid: 347f901e6def0af4d90f69739f376e91, type: 3}
       propertyPath: m_Name
       value: Mori
@@ -3033,15 +3060,15 @@ PrefabInstance:
     - target: {fileID: 1703847953875891171, guid: 8654346df0ada9047aaa09c23633aea4, type: 3}
       propertyPath: 'dogBreeds.Array.data[0]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2417202271985719318, guid: 3b92a1e5580dc4749b0cf1dea2d94fb4, type: 3}
     - target: {fileID: 1703847953875891171, guid: 8654346df0ada9047aaa09c23633aea4, type: 3}
       propertyPath: 'dogBreeds.Array.data[1]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4267041353653090410, guid: 58ae9ddb7cdecd449912faaa3ecdd143, type: 3}
     - target: {fileID: 1703847953875891171, guid: 8654346df0ada9047aaa09c23633aea4, type: 3}
       propertyPath: 'dogBreeds.Array.data[2]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3605921747111654203, guid: 7c2d8760055ebed4483ca3c348253e94, type: 3}
     - target: {fileID: 2965703624239712567, guid: 8654346df0ada9047aaa09c23633aea4, type: 3}
       propertyPath: m_Name
       value: Player
