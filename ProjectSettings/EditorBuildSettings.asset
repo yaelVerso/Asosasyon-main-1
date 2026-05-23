@@ -13,16 +13,7 @@ EditorBuildSettings:
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/Levels/Level2.unity
-    guid: a57567d7127d0ad43b3449cd4a7f2036
-  - enabled: 1
-    path: Assets/Levels/Level3.unity
-    guid: dbcb7b3acd9616b4e88e37a23d4e8afc
-  - enabled: 1
-    path: Assets/Levels/Level4.unity
-    guid: 67728822250097d4198efd0a640e0e00
-  - enabled: 1
-    path: Assets/Levels/Level5.unity
-    guid: 061464a2a4cc60a46b8908098d1b6fc9
+    guid: b40b28c8c0069d54183e4353350583e7
   - enabled: 1
     path: Assets/Levels/CreditScene.unity
     guid: cc9b08af8672a1b44b06b85831bc37db
